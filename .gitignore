@@ -1,7 +1,10 @@
-#expact ide folder
+#except ide folder
 .vs
 .idea
 
 # Added by cargo
 
 /target
+
+#except bionary file
+/run/*

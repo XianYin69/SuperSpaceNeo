@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <iostream>
 #include "testSSN.h"
+#include "./testFF/testFF.h"
 //It is a menu to run testTool
 
 namespace testSSN {
@@ -28,7 +29,7 @@ namespace testSSN {
             printf("====================================================");
             scanf_s("Option(Enter ESC to exit): %c", &option);
             if (option == "A") {
-
+                testFF::testFF();
             } else if (option == "ESC") {
                 exit_flag = true;
             } else {
