@@ -7,4 +7,4 @@ edition = "2024"
 
 [lib]
 name = "rust_fileFunc"
-create_type = ["staticlib"]
+crate-type = ["staticlib"]
