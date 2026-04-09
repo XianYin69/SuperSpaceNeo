@@ -1,9 +1,15 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.1)
 
-SET(CMAKE_CXX_STANDARD_REQUIRED 41)
+SET(CMAKE_CXX_STANDARD_REQUIRED 17)
 
 PROJECT(SuperSpaceNeo)
 
 ADD_EXECUTABLE( SuperSpaceNeo
         SuperSpaceNeo.cpp
+)
+
+SET(RUST_LIB_PATH ${CMAKE_SOURCE_DIR}/src/lib/rust_fileFunc/target/release)
+
+TARGET_LINK_LIBRARIES( SuperSpaceNeo
+    ${RUST_LIB_PATH}/rust_fileFunc.lib
 )
