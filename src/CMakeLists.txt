@@ -14,3 +14,5 @@ SET(RUST_LIB_PATH ${CMAKE_SOURCE_DIR}/src/lib/rust_fileFunc/target/release)
 TARGET_LINK_LIBRARIES( SuperSpaceNeo
     ${RUST_LIB_PATH}/rust_fileFunc.lib
 )
+
+ADD_SUBDIRECTORY(test)
