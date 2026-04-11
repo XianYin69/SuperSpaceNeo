@@ -4,7 +4,10 @@
 
 # Added by cargo
 
-/target
+target
+target/*
 
 #except bionary file
-/run/*
+
+run
+run/*

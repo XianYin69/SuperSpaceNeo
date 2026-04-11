@@ -22,9 +22,19 @@ ADD_CUSTOM_TARGET(rustlib_build
 
 ADD_DEPENDENCIES(SuperSpaceNeo rustlib_build)
 
-TARGET_LINK_LIBRARIES( SuperSpaceNeo PRIVATE
-        ${RUST_LIB_PATH}/librust_fileFunclib.a
-)
+if (MSVC)
+	set(RUST_LIB_NAME "rust_file_func.lib")
+else()
+	set(RUST_LIB_NAME "librust_file_func.a")
+endif()
+
+add_liberary(rust_ffi STATIC IMPORTED)
+
+set_target_properties(rust_ffi PROPERTIES
+	IMPORTED_LOCATION "${RUST_LIB_PATH}/${RUST_LIB_NAME}"
+}
+
+target_link_libraries(SuperSpaceNeo PRIVATE rust_ffi)
 
 ADD_SUBDIRECTORY(${CMAKE_SOURCE_DIR}/test)
 
