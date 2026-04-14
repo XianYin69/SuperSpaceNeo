@@ -27,7 +27,8 @@ namespace testSSN {
             printf("==================Test Toolbox======================");
             opt_1.display();
             printf("====================================================");
-            scanf_s("Option(Enter ESC to exit): %c", &option);
+            std::cout << "Ether a option(ESC to exit):";
+            std::cin >> option;
             if (option == "A") {
                 testFF::testFF();
             } else if (option == "ESC") {

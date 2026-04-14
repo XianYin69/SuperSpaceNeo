@@ -1,5 +1,5 @@
 #except ide folder
-.vs
+.vscode
 .idea
 
 # Added by cargo
@@ -11,3 +11,8 @@ target/*
 
 run
 run/*
+
+#except MSVC file
+*.obj
+*.pdb
+*.pdb

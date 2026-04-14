@@ -5,7 +5,7 @@ SET(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 PROJECT(testSSN)
 
-ADD_LIBRARY( testSSN
+ADD_LIBRARY( testSSN STATIC
         testSSN.cpp
         testFF/testFF.cpp
 )

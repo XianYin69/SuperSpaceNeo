@@ -7,35 +7,39 @@ PROJECT(SuperSpaceNeo)
 
 ADD_EXECUTABLE( SuperSpaceNeo
         SuperSpaceNeo.cpp
-        SuperSpaceNeo.cpp
-        test/testSSN.cpp
 )
 
-SET(RUST_PROJECT_DIR ${CMAKE_SOURCE_DIR}/rust/rust_fileFunc)
+set(RUST_PROJECT_DIR ${CMAKE_SOURCE_DIR}/rust)
 
-SET(RUST_LIB_PATH ${RUST_PROJECT_DIR}/target/release)
+set(rust_fileFunc_DIR ${RUST_PROJECT_DIR}/rust_fileFunc)
 
-ADD_CUSTOM_TARGET(rustlib_build
+set(rust_fileFunc_project_DIR ${rust_fileFunc_DIR}/src)
+
+set(rust_fileFunc_build_DIR ${rust_fileFunc_DIR}/target/release)
+
+ADD_CUSTOM_TARGET(rust_fileFunc_build
         COMMAND cargo build --release
-        WORKING_DIRECTORY ${RUST_PROJECT_DIR}
+        WORKING_DIRECTORY ${rust_fileFunc_DIR}
 )
 
-ADD_DEPENDENCIES(SuperSpaceNeo rustlib_build)
+ADD_DEPENDENCIES(SuperSpaceNeo rust_fileFunc_build)
 
-if (MSVC)
-	set(RUST_LIB_NAME "rust_file_func.lib")
+if(UNIX)
+        set(rust_fileFunc_name "librust_fileFuc.a")
 else()
-	set(RUST_LIB_NAME "librust_file_func.a")
+        set(rust_fileFunc_name "rust_fileFunc.lib")
 endif()
 
-add_liberary(rust_ffi STATIC IMPORTED)
+add_library(rust_ffi STATIC IMPORTED)
 
 set_target_properties(rust_ffi PROPERTIES
-	IMPORTED_LOCATION "${RUST_LIB_PATH}/${RUST_LIB_NAME}"
-}
+	IMPORTED_LOCATION "${rust_fileFunc_build_DIR}/${rust_fileFunc_lib_name}"
+)
+
+link_directories(${rust_fileFunc_build_DIR})
 
 target_link_libraries(SuperSpaceNeo PRIVATE rust_ffi)
 
 ADD_SUBDIRECTORY(${CMAKE_SOURCE_DIR}/test)
 
-TARGET_LINK_LIBRARIES(SuperSpaceNeo PRIVATE testSSN)
+TARGET_LINK_LIBRARIES(SuperSpaceNeo PRIVATE testSSN rust_ffi)

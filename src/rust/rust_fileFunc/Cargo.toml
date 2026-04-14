@@ -5,6 +5,9 @@ edition = "2024"
 
 [dependencies]
 
+[target.x86_64-pc-windows-gnu]
+rustflags = ["-C", "link-arg=-static"]
+
 [lib]
 name = "rust_fileFunc"
 crate-type = ["staticlib"]
