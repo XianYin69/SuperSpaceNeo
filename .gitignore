@@ -9,8 +9,6 @@ target/*
 
 #except bionary file
 
-run
-run/*
 
 #except MSVC file
 *.obj
