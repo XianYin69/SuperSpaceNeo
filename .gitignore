@@ -6,6 +6,12 @@
 
 target
 target/*
+*/target
+*/target/*
+.rust_info.json
+CACHEDIR.TAG
+src/rust/rust_fileFunc/target
+src/rust/rust_fileFunc/target/*
 
 #except bionary file
 

@@ -7,5 +7,5 @@
 using namespace testFF;
 
 void ::testFF::testFF() {
-    get_file_info();
+
 }
