@@ -5,29 +5,21 @@
 #include <iostream>
 #include "testSSN.h"
 #include "./testFF/testFF.h"
+#include "./include/define_display_word.h"
+#include "./include/display_tip.h"
 //It is a menu to run testTool
 
 namespace testSSN {
-    class display_option {
-    protected:
-        std::string option;
-        std::string title;
-    public:
-        display_option(std::string option, std::string title): option(option), title(title) {};
-        void display() const {
-            std::cout << this -> option << ".\t" << this -> title << std::endl;
-        }
-    };
-
     void testSSN() {
         std::string option;
         bool exit_flag = true;
         do {
-            display_option opt_1("A", "Test detection for key borad");
-            printf("==================Test Toolbox======================");
-            opt_1.display();
-            printf("====================================================");
-            std::cout << "Ether a option(ESC to exit):";
+            display::define_display_word title("", "Test SSN");
+            display::tip tip_1("Enter a option (ESC to exit):");
+            display::define_display_word opt_1("A", "Test detection for key borad");
+            title.display_title();
+            opt_1.display_option();
+            tip_1.display_tip();
             std::cin >> option;
             if (option == "A") {
                 testFF::testFF();
