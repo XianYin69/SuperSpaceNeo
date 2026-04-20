@@ -5,7 +5,7 @@
  * Welcome to use SuperSpace
  */
 
-#include "test/testSSN.h"
+#include "./test/testSSN.h"
 
 int main() {
     testSSN::testSSN();
