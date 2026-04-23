@@ -1,0 +1,5 @@
+--resource
+C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_SuperSpaceNeo.qrc
+--resource
+C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appSuperSpaceNeo_raw_qml_0.qrc
+/qt/qml/SuperSpaceNeo/Main.qml

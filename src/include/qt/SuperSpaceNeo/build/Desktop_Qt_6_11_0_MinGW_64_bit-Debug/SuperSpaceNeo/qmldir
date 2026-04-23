@@ -1,0 +1,6 @@
+module SuperSpaceNeo
+typeinfo appSuperSpaceNeo.qmltypes
+prefer :/qt/qml/SuperSpaceNeo/
+Main 254.0 Main.qml
+depends QtQuick
+

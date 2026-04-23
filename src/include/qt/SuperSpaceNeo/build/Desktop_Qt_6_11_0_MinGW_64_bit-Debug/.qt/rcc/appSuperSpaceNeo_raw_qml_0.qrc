@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/SuperSpaceNeo/">
+    <file alias="Main.qml">C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/Main.qml</file>
+  </qresource>
+</RCC>
+

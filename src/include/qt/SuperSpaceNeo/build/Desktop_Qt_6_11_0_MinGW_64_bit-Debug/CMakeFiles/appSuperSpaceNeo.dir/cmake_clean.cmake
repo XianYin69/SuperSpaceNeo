@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appSuperSpaceNeo_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_SuperSpaceNeo.cpp"
+  ".rcc/qmlcache/appSuperSpaceNeo_Main_qml.cpp"
+  ".rcc/qmlcache/appSuperSpaceNeo_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appSuperSpaceNeo_qmlcache_loader.cpp"
+  "CMakeFiles/appSuperSpaceNeo_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appSuperSpaceNeo_autogen.dir/ParseCache.txt"
+  "appSuperSpaceNeo_autogen"
+  "CMakeFiles/appSuperSpaceNeo.dir/appSuperSpaceNeo_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appSuperSpaceNeo.dir/appSuperSpaceNeo_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appSuperSpaceNeo.dir/appsuperspaceneo_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appSuperSpaceNeo.dir/appsuperspaceneo_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appSuperSpaceNeo.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appSuperSpaceNeo_raw_qml_0.cpp.obj"
+  "CMakeFiles/appSuperSpaceNeo.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appSuperSpaceNeo_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appSuperSpaceNeo.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_SuperSpaceNeo.cpp.obj"
+  "CMakeFiles/appSuperSpaceNeo.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_SuperSpaceNeo.cpp.obj.d"
+  "CMakeFiles/appSuperSpaceNeo.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appSuperSpaceNeo_Main_qml.cpp.obj"
+  "CMakeFiles/appSuperSpaceNeo.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appSuperSpaceNeo_Main_qml.cpp.obj.d"
+  "CMakeFiles/appSuperSpaceNeo.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appSuperSpaceNeo_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appSuperSpaceNeo.dir/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.rcc/qmlcache/appSuperSpaceNeo_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appSuperSpaceNeo.dir/main.cpp.obj"
+  "CMakeFiles/appSuperSpaceNeo.dir/main.cpp.obj.d"
+  "SuperSpaceNeo/appSuperSpaceNeo.qmltypes"
+  "appSuperSpaceNeo.exe"
+  "appSuperSpaceNeo.exe.manifest"
+  "appSuperSpaceNeo.pdb"
+  "appSuperSpaceNeo_autogen/mocs_compilation.cpp"
+  "appSuperSpaceNeo_autogen/timestamp"
+  "appsuperspaceneo_qmltyperegistrations.cpp"
+  "libappSuperSpaceNeo.dll.a"
+  "meta_types/appSuperSpaceNeo_json_file_list.txt"
+  "meta_types/appSuperSpaceNeo_json_file_list.txt.timestamp"
+  "meta_types/qt6appsuperspaceneo_metatypes.json"
+  "meta_types/qt6appsuperspaceneo_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appSuperSpaceNeo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

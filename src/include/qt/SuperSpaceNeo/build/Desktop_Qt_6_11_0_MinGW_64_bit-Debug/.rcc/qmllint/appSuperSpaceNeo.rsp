@@ -1,0 +1,14 @@
+--bare
+-I
+C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/SuperSpaceNeo
+-I
+C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.11.0/mingw_64/qml
+--resource
+C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_SuperSpaceNeo.qrc
+--resource
+C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appSuperSpaceNeo_raw_qml_0.qrc
+C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/Main.qml
