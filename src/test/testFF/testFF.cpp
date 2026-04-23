@@ -6,6 +6,7 @@
 #include "../include/define_display_word.h"
 #include "../include/display_tip.h"
 #include "../testSSN.h"
+#include "../../rust/cpp/ffi/rust_fileFunc/ffi.hpp"
 
 using namespace testFF;
 
@@ -18,6 +19,11 @@ void testFF_Find_a_File() {
         tip_1.display_tip();
         std::cin >> Path;
         // use "rust/rust_fileFunc" -> get_file_info and free_file_info function
+
+        CFileInfo* info = get_file_info(Path.c_str());
+        std::cout << info -> file_name << std::endl;
+        free_file_info(info);
+
     } while (Path.empty() || Path == "q");
 }
 
