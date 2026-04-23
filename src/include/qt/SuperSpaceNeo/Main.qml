@@ -1,33 +1,34 @@
 import QtQuick
-import QtQuick.VirtualKeyboard
+import QtQuick.Controls
 
-Window {
-    id: window
-    width: 640
-    height: 480
+ApplicationWindow {
+    id: root  // 👈 必须加上这个，否则下文的 root.height 会失效
     visible: true
-    title: qsTr("Hello World")
+    width: 800
+    height: 800
+    title: "SuperSpaceNeo-Dev Mode"
 
-    InputPanel {
-        id: inputPanel
-        z: 99
-        y: window.height
-        width: window.width
+    function debugMode() { // 建议小写开头，符合 JS 函数习惯
+        console.log("Developing - Current Scale: " + (root.height * 0.1))
+    }
 
-        states: State {
-            name: "visible"
-            when: inputPanel.active
-            PropertyChanges {
-                inputPanel.y: window.height - inputPanel.height
-            }
+    // 使用 Column 容器让它们垂直排列，别叠在一起
+    Column {
+        anchors.centerIn: parent
+        spacing: 30
+
+        Text {
+            text: "SuperSpaceNeo Dev Mode"
+            // 选 A 是对的！使用 Math.round 或 Math.max 增加鲁棒性
+            font.pixelSize: Math.max(12, root.height * 0.05)
+            anchors.horizontalCenter: parent
         }
-        transitions: Transition {
-            from: ""
-            to: "visible"
-            reversible: true
-            NumberAnimation {
-                properties: "y"
-                easing.type: Easing.InOutQuad
+
+        Button {
+            text: "调试"
+            anchors.horizontalCenter: parent
+            onClicked: {
+                root.debugMode()
             }
         }
     }

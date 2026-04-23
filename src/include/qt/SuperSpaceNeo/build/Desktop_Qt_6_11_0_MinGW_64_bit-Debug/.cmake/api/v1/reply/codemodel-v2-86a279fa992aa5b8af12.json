@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a7082cd916a2d8088bc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SuperSpaceNeo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-6e80138385a727db0cb4.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-9a5da51390a3627edee7.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-3ef51132780eafb9ec28.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-492508160cc4360de54b.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-275ed5e0444596d65e9e.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo-Debug-f18e57d062c3fc7bd6c7.json",
+					"name" : "appSuperSpaceNeo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_autogen-Debug-86b45dde64a815a4e192.json",
+					"name" : "appSuperSpaceNeo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_autogen_timestamp_deps-Debug-18faeeedd41d4b1196ef.json",
+					"name" : "appSuperSpaceNeo_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_copy_qml-Debug-0d19b1daca19550c0610.json",
+					"name" : "appSuperSpaceNeo_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_copy_res-Debug-901b39b0aedc8c2b7f70.json",
+					"name" : "appSuperSpaceNeo_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_generate_qmlls_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_generate_qmlls_ini_file-Debug-7c4c833a0156c2d3bcdb.json",
+					"name" : "appSuperSpaceNeo_generate_qmlls_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_qmlimportscan-Debug-b5b48a54d5faa44c1421.json",
+					"name" : "appSuperSpaceNeo_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_qmllint-Debug-eff2f5df5aa856bcc528.json",
+					"name" : "appSuperSpaceNeo_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_qmllint_json-Debug-f6894e3cb86cef488aad.json",
+					"name" : "appSuperSpaceNeo_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_qmllint_module-Debug-dfeeeb0d56cf616c2b64.json",
+					"name" : "appSuperSpaceNeo_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSuperSpaceNeo_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSuperSpaceNeo_qmltyperegistration-Debug-5755f4665c9f9d46e696.json",
+					"name" : "appSuperSpaceNeo_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-a53ede606562b3031f95.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-efe48048f1539fe2a52c.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-dcda1775b1618706fc50.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appSuperSpaceNeo_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appSuperSpaceNeo_aotstats_target-Debug-cfa0e906cd308727ebcc.json",
+					"name" : "module_appSuperSpaceNeo_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Developin/SuperSpaceNeo/src/include/qt/SuperSpaceNeo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
